@@ -69,6 +69,11 @@ dist
 .env.test.local
 .env.production.local
 
+# App settings with secrets (keep .Example versions)
+appsettings.json
+appsettings.*.json
+!appsettings.Example.json
+
 # Testing
 coverage/
 *.cover
